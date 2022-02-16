@@ -18,7 +18,7 @@ public class RtraderBotApplication {
 
     @Bean
     public JDA jda() throws LoginException {
-        return JDABuilder.createDefault("OTQzMzg4MTc0MjIxMTkzMjE2.YgyUtA.vXAllW5QiDZFeIPnlIMIUKAJJQg")
+        return JDABuilder.createDefault("")
                 .setActivity(Activity.watching("!trader-help"))
                 .build();
     }
